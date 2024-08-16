@@ -17,9 +17,9 @@ yellow = (255, 254, 106)
 green = (126, 217, 87)
 gridcolor = (175, 216, 248)
 orange = (255, 165, 0)
-font = pygame.font.Font("elements/myfont.ttf", 40)
+font = pygame.font.Font("myfont.ttf", 40)
 algos=['  A-Star','Dijkstras','   Greedy']
-menu = pygame.image.load('elements/Visualizer-UI.png')
+menu = pygame.image.load('Visualizer-UI.png')
 
 # ------------------------------------------class for nodes in grid --------------------------------------------------------
 class Box:
