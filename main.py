@@ -6,7 +6,9 @@ from tkinter import messagebox, Tk
 
 WIDTH = 800
 WIN = pygame.display.set_mode((1200, 800))
-pygame.init()
+pygame.font.init()
+pygame.display.init()
+
 pygame.display.set_caption("Path Finding Visualiser")
 
 lightblue = (64, 206, 227)
